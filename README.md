@@ -3,7 +3,8 @@
 ### Preview
 ----
 #### Desktop
-![desktopChristma](https://user-images.githubusercontent.com/26255765/201193493-722b91ad-39d7-4a49-9570-cfa65cc35c69.png)
+
+![christma](https://user-images.githubusercontent.com/26255765/201201489-de7bca67-6a54-46a0-9331-129ce610ac9f.png)
 
 #### Mobile
 
