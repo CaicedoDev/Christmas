@@ -1,12 +1,15 @@
 import './App.css'
 
+import Snowfall from 'react-snowfall'
+
 import imgSantaHero from './assets/santa_hero.png'
 import { TimeChristma } from './pages/timeChristma'
 
 export const App = () => {
   return (
     <>
-      <main className="w-full h-screen bg-red-100">
+      <main className="w-full h-screen bg-[#212E37]">
+        <Snowfall snowflakeCount={400} />
         <div className="max-w-6xl h-full grid grid-cols-1 items-center md:grid-cols-3 mx-auto">
           <section
             className="col-span-2 sm:full w-full md:h-full px-4 md:px-0

@@ -39,13 +39,13 @@ export function TimeChristma() {
 
   return (
     <>
-      <div className="w-full text-7xl sm:text-8xl font-semibold">
+      <div className="w-full text-6xl sm:text-8xl font-semibold">
         <PresentationCaicedo />
       </div>
       <div className="flex flex-col items-center w-full">
-        <p className="text-2xl font-medium my-8">How long until christmas?</p>
+        <p className="text-2xl font-medium my-8 text-white">How long until christmas?</p>
         <div className="w-full flex justify-around items-center md:flex-col">
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-6">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 text-white">
             <Timer text={'days'} time={days} />
             <Timer text={'hours'} time={hours} />
             <Timer text={'minutes'} time={minutes} />
