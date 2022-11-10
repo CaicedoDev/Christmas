@@ -8,7 +8,10 @@ export const App = () => {
     <>
       <main className="w-full h-screen bg-red-100">
         <div className="max-w-6xl h-full grid grid-cols-1 items-center md:grid-cols-3 mx-auto">
-          <section className="col-span-2 sm:h-4/5 md:h-full px-4 md:px-0">
+          <section
+            className="col-span-2 sm:full w-full md:h-full px-4 md:px-0
+          md:flex flex-col md:items-center md:justify-center"
+          >
             <TimeChristma />
           </section>
           <section className="col-span-1 hidden md:flex items-center">
