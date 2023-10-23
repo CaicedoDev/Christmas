@@ -11,7 +11,7 @@ export function TimeChristma() {
   const [seconds, setSeconds] = useState(0)
 
   useEffect(() => {
-    const dateChristma = new Date('12/25/2022 23:59:59')
+    const dateChristma = new Date('12/25/2023 23:59:59')
 
     const interval = setInterval(() => {
       const todayTimeDate = new Date()
